@@ -44,3 +44,10 @@
     --filter-3: saturate(1.5) hue-rotate(150deg);
   }
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: #ffffff;
+    --button-hover: var(--background-color);
+  }
+}
