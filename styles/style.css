@@ -400,15 +400,12 @@
 
   .button-floppy {
     flex-direction: column;
+    padding-inline: 19px 21px;
+    padding-block: 15px;
   }
 
   .button__inner-icon {
     inline-size: 28px;
     block-size: 28px;
-  }
-
-  .button-floppy {
-    padding-inline: 19px 21px;
-    padding-block: 15px;
   }
 }
